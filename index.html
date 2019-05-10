@@ -57,9 +57,37 @@
                   <h6>POP UP</h6>
                   <h4>MY RESUME</h4>
                   <p>Learn more about my<br /> experience and<br /> capabilities</p>
-                  <button class="mini-lead-card">
-                    View Resume
+
+                  <!-- resume button -->
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                    Launch demo modal
                   </button>
+
+                  <!-- Bootstrap4 Modal -->
+                  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLongTitle">View Resume</h5>
+                          <button type="button" class="close mini-lead-card" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <embed src="./images/Julie_Seijas_resume1905.pdf" width="760px" height="2100px" />
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- <button class="mini-lead-card">
+                    View Resume
+                  </button> -->
                 </div>
               </div>
               <div class="skill-card">
@@ -94,19 +122,22 @@
 
             <div class="wrapper multi-card">
               <div class="project-card">
-                <a href="./projects.html">
+                <!-- <a href="./projects.html"> -->
+                <a href="https://photogram-share.herokuapp.com/" target="_blank" class="project-link">
                   <img class="project-mini-pics" src="./images/photogram.JPG" alt="Photogram">
                   <!-- <p>Photogram<br />sample</p> -->
                 </a>
               </div>
               <div class="project-card">
-                <a href="./projects.html">
+                <!-- <a href="./projects.html"> -->
+                <a href="https://event-sched-frontend12.herokuapp.com/" target="_blank" class="project-link">
                   <img class="project-mini-pics" src="./images/scheduler.JPG" alt="Scheduler">
                   <!-- <p>Scheduler<br />sample</p> -->
                 </a>
               </div>
               <div class="project-card">
-                <a href="./projects.html">
+                <!-- <a href="./projects.html"> -->
+                <a href="https://twitter-ecommerce12.herokuapp.com/" target="_blank" class="project-link">
                   <img class="project-mini-pics" src="./images/ecom-twr.JPG" alt="E-commerce">
                   <!-- <p>E-commerce<br />sample</p> -->
                 </a>
