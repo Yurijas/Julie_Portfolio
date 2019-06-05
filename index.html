@@ -17,6 +17,7 @@
   </head>
 
   <body>
+  <div class="container">
     <!-- header -->
     <div class="header-navbar" id="header">
       <header>
@@ -37,14 +38,16 @@
     <div class="main-page">
 
       <!-- about myself (very simple) -->
-      <div class="row top-info">
-        <div class="col-md-7 half-card">
-          <h2>An Eye For <span class="orange-letter">Design</span></h2>
-          <h5>Seeking opportunities in<br />
-            Front-End Web Development<h5>
-          <em>Greater Boston Area</em>
+      <div class="row">
+        <div class="col-md-12 top-info">
+          <div class="col-md-7 half-card">
+            <h2>An Eye For <span class="orange-letter">Design</span></h2>
+            <h5>Seeking opportunities in<br />
+              Front-End Web Development<h5>
+            <em>Greater Boston Area</em>
+          </div>
+          <div class="col-md-5 half-card"></div>
         </div>
-        <div class="col-md-5 half-card"></div>
       </div>
 
       <main>
@@ -90,6 +93,7 @@
                   </button> -->
                 </div>
               </div>
+
               <div class="skill-card">
                 <img class="skills-icon" src="http://placehold.it/100x100" alt="Skills">
                 <h5>Skills</h5>
@@ -111,15 +115,19 @@
                 <p>Aside from knowing how to code, I speak 3 languages. I am a global communicator</p>
               </div>
             </div>
+          </div><!-- ends skills col-md-12 -->
+        </div><!-- ends skills row -->
 
-            <hr class="solid-gray" />
+        <hr class="solid-gray" />
 
-            <!-- projects cards -->
-            <div class="mini-title">
-              <h6>VIEW MY</h6>
-              <h4>PROJECTS</h4>
-            </div>
+        <!-- projects cards -->
+        <div class="mini-title">
+          <h6>VIEW MY</h6>
+          <h4>PROJECTS</h4>
+        </div>
 
+        <div class="row">
+          <div class="col-md-12">
             <div class="wrapper multi-card">
               <div class="project-card">
                 <!-- <a href="./projects.html"> -->
@@ -143,8 +151,10 @@
                 </a>
               </div>
             </div>
-          </div><!-- ends main col-md-12 -->
-        </div><!-- ends main row -->
+          </div><!-- ends view-my-project col-md-12 -->
+        </div><!-- ends view-my-project row -->
+          <!-- </div><! ends main col-md-12 -->
+        <!-- </div><! ends main row -->
       </main>
     </div><!-- ends container main-page-->
 
@@ -160,7 +170,7 @@
       </footer>
       <!-- <p>© 2019 Copyright: Yurijas</p> -->
     </div>
-
+  </div><!-- body container -->
     <!-- jQuery JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Bootstrap 4 JS -->

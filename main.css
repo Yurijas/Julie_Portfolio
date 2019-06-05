@@ -38,7 +38,7 @@ header h1{
 
 .nav li>a:hover{
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 /* header ends */
 
@@ -80,7 +80,8 @@ label, input, textarea {
 .top-info {
   background-image: url("./images/top-image.jpeg");
   width: 100vw;
-  height: 40vh;
+  /* width: 1000px; */
+  height: 400px;
   background-size: cover;
   padding-left: 1rem;
   padding-top: 8rem;
@@ -163,7 +164,7 @@ hr.solid-gray {
 
 .multi-card{
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   /* text-align: center; */
 }
 
@@ -174,7 +175,7 @@ hr.solid-gray {
 
 .project-mini-pics {
   width: 25vw;
-  height: 20vh;
+  height: 25vh;
   margin-bottom: 10px;
 }
 
@@ -186,8 +187,8 @@ hr.solid-gray {
 
 .project-mini-pics:hover{
   /* text-decoration: none; */
-  width: 26vw;
-  height: 21vh;
+  width: 24.6vw;
+  height: 24.6vh;
 }
 
 /* about page ends */
@@ -400,5 +401,31 @@ footer ul {
   }
   .desc-card h5 {
     font-size: 20%;
+  }
+  .nav li>a{
+    font-size: 1.3rem;
+    padding: 2px;
+  }
+  .nav li>a:hover{
+    font-size: 1.1rem;
+  }
+  header h1{
+    font-size: 2rem;
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (max-width: 992px){
+  .nav li>a{
+    font-size: 1.2rem;
+    padding: 2px;
+  }
+  .nav li>a:hover{
+    font-size: 1.1rem;
+  }
+  header h1{
+    font-size: 1.8rem;
+    margin-left: 1px;
+    padding-top: 5px;
   }
 }
