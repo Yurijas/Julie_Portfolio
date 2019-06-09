@@ -130,7 +130,8 @@ label, input, textarea {
   background-color: #fafafa;
 }
 .skills-icon {
-
+  width: 100px;
+  height: 100px;
 }
 .skill-card h5 {
   padding: 2vh 1vw;
