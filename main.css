@@ -79,7 +79,7 @@ label, input, textarea {
 /* about page starts */
 .top-info {
   background-image: url("./images/top-image.jpeg");
-  width: 100vw;
+  width: 200vw;
   /* width: 1000px; */
   height: 400px;
   background-size: cover;
@@ -120,7 +120,8 @@ label, input, textarea {
   margin-bottom: 0;
 }
 .resume-card {
-  padding-right: 5rem;
+  padding-right: 2rem;
+  margin-left: none;
   padding-top: 3rem;
 }
 .skill-card {
@@ -174,8 +175,8 @@ hr.solid-gray {
 }
 
 .project-mini-pics {
-  width: 25vw;
-  height: 25vh;
+  /* width: 25vw;
+  height: 25vh; */
   margin-bottom: 10px;
 }
 
@@ -186,9 +187,10 @@ hr.solid-gray {
 } */
 
 .project-mini-pics:hover{
+  opacity: .5;
   /* text-decoration: none; */
-  width: 24.6vw;
-  height: 24.6vh;
+  /* width: 24.6vw;
+  height: 24.6vh; */
 }
 
 /* about page ends */
