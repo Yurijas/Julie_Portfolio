@@ -176,8 +176,8 @@ hr.solid-gray {
 }
 
 .project-mini-pics {
-  /* width: 25vw;
-  height: 25vh; */
+  width: 200px;
+  height: 200px;
   margin-bottom: 10px;
 }
 
